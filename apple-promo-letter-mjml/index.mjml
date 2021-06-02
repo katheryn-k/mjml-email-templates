@@ -1,0 +1,217 @@
+<mjml>
+    <mj-head>
+        <mj-preview>Apple promo letter</mj-preview>
+        <mj-style>
+            h1 {
+                all: inherit;
+            }
+
+            .navbar__section {
+                background-color: #313131;
+            }
+
+            .content__section {
+                background-color: #141415;
+            }
+
+            .content__text {
+                font-family: Verdana, serif;
+                text-align: left;
+                text-transform: lowercase;
+                color: #ffffff;
+            }
+
+            .content__text--value {
+                margin-bottom: 8px;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+            }
+
+            .content__text--upgrade {
+                margin-bottom: 16px;
+                font-size: 10px;
+                line-height: 12px;
+            }
+
+            .content__text--divider {
+                text-align: center;
+                width: 96px;
+                height: 4px;
+                background: linear-gradient(180deg, #FDA472 0%, #F7B78F 100%), #EDBB99;
+            }
+
+            .footer__section {
+                background-color: #313131;
+            }
+
+            .footer__link {
+                text-decoration: none;
+                color: #51ACFF;
+            }
+
+            @media (max-width: 414px) {
+                h1 {
+                    font-size: 23px;
+                    line-height: 35px;
+                }
+
+                .content__text {
+                    text-align: center;
+                }
+
+                .content__text--divider {
+                    margin: auto;
+                    width: 150px;
+                }
+
+                .footer__text td {
+                    padding: 10px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-section css-class="navbar__section" padding="0">
+            <mj-column>
+                <mj-image css-class="navbar__logo"
+                          src="https://i.ibb.co/nb166bz/apple-icon.png"
+                          alt="Apple logo"
+                          padding="24px 0"
+                          width="20px"
+                          align="center"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="content__section">
+            <mj-column>
+                <mj-text padding="50px 30px 0 30px"
+                         font-family="Verdana"
+                         font-weight="700"
+                         font-size="20px"
+                         align="center"
+                         line-height="49px"
+                         color="#fff"
+                >
+                    <h1>
+                        Our most stunning take
+                        <br>
+                        on post-production.
+                    </h1>
+                </mj-text>
+                <mj-button css-class="button--buy-now"
+                           href="https://www.apple.com/ru/mac/"
+                           font-family="Verdana"
+                           font-weight="700"
+                           font-size="15px"
+                           line-height="18px"
+                           align="center"
+                           color="#51ACFF"
+                           background-color="#141415"
+                >
+                    Buy now &gt;
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="content__section">
+            <mj-column>
+                <mj-image src="https://i.ibb.co/JR9n56B/imac-image.png"
+                          alt="Image of IMac"
+                          align="center"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-wrapper padding="0">
+            <mj-section css-class="content__section" padding="0 60px 60px 60px">
+                <mj-column>
+                    <mj-text align="center">
+                        <div class="content__text content__text--small">
+                            Up to
+                        </div>
+                        <div class="content__text content__text--value">
+                            3.2x
+                        </div>
+                        <div class="content__text content__text--upgrade">
+                            Faster render
+                        </div>
+                        <div class="content__text--divider"></div>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text align="center">
+                        <div class="content__text content__text--small">
+                            Up to
+                        </div>
+                        <div class="content__text content__text--value">
+                            8+
+                        </div>
+                        <div class="content__text content__text--upgrade">
+                            Streams of 4k video
+                        </div>
+                        <div class="content__text--divider"></div>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text align="center">
+                        <div class="content__text content__text--small">
+                            Up to
+                        </div>
+                        <div class="content__text content__text--value">
+                            2x
+                        </div>
+                        <div class="content__text content__text--upgrade">
+                            Faster running time
+                        </div>
+                        <div class="content__text--divider"></div>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-section css-class="footer__section social" padding="48px 40px 10px 40px">
+            <mj-group css-class="social__list">
+                <mj-column css-class="social__item">
+                    <mj-image src="https://i.ibb.co/q1WxKgb/facebook-logo.png"
+                              alt="Facebook link"
+                              href="https://www.facebook.com/"
+                              width="10px"
+                    />
+                </mj-column>
+                <mj-column css-class="social__item">
+                    <mj-image src="https://i.ibb.co/2SymKFT/twitter-logo.png"
+                              alt="Twitter link"
+                              href="https://twitter.com/"
+                              width="20px"
+                    />
+                </mj-column>
+                <mj-column css-class="social__item">
+                    <mj-image src="https://i.ibb.co/FxdhpkG/instagram-logo.png"
+                              alt="Instagram link"
+                              href="https://www.instagram.com/"
+                              width="20px"
+                    />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section css-class="footer__section footer__text">
+            <mj-column padding="30px 60px">
+                <mj-text font-family="Verdana"
+                         font-size="10px"
+                         align="center"
+                         line-height="18px"
+                         color="#7D7D7D"
+                >
+                    <p>
+                        All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+                    </p>
+                    <p>
+                        This email was sent to hello@you.com because you
+                        indicated that you’d like to stay up to date
+                        on the latest features, services, support info
+                        and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails
+                        <a class="footer__link" href="mailto:someone@email.com">here</a>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

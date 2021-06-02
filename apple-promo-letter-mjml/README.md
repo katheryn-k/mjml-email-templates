@@ -1,0 +1,1 @@
+![Apple letter](/Users/katyakyrychenko/Downloads/Apple letter.png)
